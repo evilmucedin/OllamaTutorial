@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import requests
 import json
 
@@ -6,7 +8,7 @@ url = "http://localhost:11434/api/chat"
 
 # Define the payload (your input prompt)
 payload = {
-    "model": "mistral",  # Replace with the model name you're using
+    "model": "qwen2.5-coder:0.5b",  # Replace with the model name you're using
     "messages": [{"role": "user", "content": "What is Python?"}]
 }
 
